@@ -2,8 +2,9 @@
 [![Licenses](https://img.shields.io/badge/license-bsd-orange.svg)](https://opensource.org/licenses/BSD-3-Clause)
 + 该项目提供一个链家网全国房源爬虫工具，数据存储目前支持Mysql,Sqlite和Postgres。非常方便转化成csv等格式文件。
 + 利用Python Pandas ([source code](https://github.com/XuefengHuang/lianjia-scrawler/blob/master/data/lianjia.ipynb))分析链家在线房源数据，本项目提供了一个例子可以参考。
-+ 由于链家的反爬虫机制，所以该项目限制了爬虫速度。如果被封，可以修改header的cookie信息。
-+ 此网站(www.ershoufangdata.com) 利用该项目爬虫数据提供房价的可视化分析，帮助用户更好的评估房产和预测未来的价格，欢迎使用！
++ 由于链家的反爬虫机制，所以该项目限制了爬虫速度。
++ 此代码仅供学习与交流，请勿用于商业用途，后果自负。
++ 下图为利用爬虫数据做的可视化分析网站，但由于怕引起法律问题，不公开网站地址，感兴趣可私下交流。
 + **如果觉得好，请给项目点颗星来支持吧～～** 
 
 ![alt text](https://github.com/XuefengHuang/lianjia-scrawler/blob/master/screenshots/homepage_1.png)
